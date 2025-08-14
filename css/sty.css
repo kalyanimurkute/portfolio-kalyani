@@ -9,3 +9,47 @@ body {
     background-color: #0a0a23;
     color: white;
 }
+/* Navbar */
+header {
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: linear-gradient(45deg, #ff4f9a, #b46bff);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: #ff4d88;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 140px 15%;
+    min-height: 100vh;
+}
