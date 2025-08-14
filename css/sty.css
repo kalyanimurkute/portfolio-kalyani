@@ -53,3 +53,60 @@ nav ul li a:hover {
     padding: 140px 15%;
     min-height: 100vh;
 }
+/* Left Text */
+.hero-text {
+    max-width: 500px;
+}
+
+.intro {
+
+    font-size: 20px;
+    color: white;
+}
+
+.name {
+    font-size: 2.5rem;
+    color: #df31d1;
+    font-weight: 700;
+}
+
+.role {
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 1rem;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ff4d88;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 15px #ff4d88;
+}
+
+.btn-secondary {
+    background: transparent;
+}
+
+.btn-secondary:hover {
+    background: linear-gradient(45deg, #ff4f9a, #b46bff);
+}
