@@ -211,6 +211,30 @@ nav ul li a:hover {
     line-height: 1.6;
     margin-bottom: 20px;
 }
+/* About Section - Mobile Responsive */
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .about-image img {
+        width: 250px;
+        height: 300px;
+        border-radius: 80%;
+    }
+
+    .about-content h2 {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+}
+
 
 /* Portfolio Card */
 .card {
@@ -337,6 +361,43 @@ nav ul li a:hover {
   object-fit: cover;
   border-radius: 10px;
 }
+/* Portfolio Showcase - Mobile Responsive */
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .skills {
+        gap: 10px;
+    }
+
+    .circle {
+        width: 50px;
+        height: 50px;
+        font-size: 0.9rem;
+    }
+
+    .cards-1 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card-1 {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .card h2 {
+        font-size: 2rem;
+    }
+
+    .card p {
+        font-size: 0.95rem;
+    }
+}
+
 /* Contact Section */
 .contact {
     background:  #0a0a23;
